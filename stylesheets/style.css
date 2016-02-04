@@ -1,0 +1,402 @@
+/***************************
+****************************
+Universal Elements
+****************************
+***************************/
+
+* {
+    text-align: center;
+    font-family: "Lobster",'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/***************************
+****************************
+MOBILE FIRST/BASE ELEMENTS
+****************************
+***************************/
+
+.clearfix {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+body {
+    margin: auto;;
+    text-align: center;
+    border: solid 1px red;
+
+}
+
+.container {
+    padding: 0 .75em;
+    margin: auto;
+}
+
+h1,
+h2
+ {
+    font-family: 'Lobster', cursive, sans-serif;;
+    color: black;
+}
+
+h3 li {
+    color: black;
+
+}
+
+
+h3 {
+    font-family: sans-serif;
+}
+
+.maxwell-kendall a,
+.non-mobile a,
+.back-to-top a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/***************************
+****************************
+HEADER
+****************************
+***************************/
+
+.header-title {
+    margin: auto;
+}
+
+header {
+    background-color: #F5F5F5;
+    padding-bottom: 2em;
+}
+
+.main-nav {
+    display: block;
+    padding: .5em;
+    background-color: #F5F5F5;
+    width: 100%;
+
+}
+
+.main-nav li {
+    display: block;
+    padding: .25em;
+    width: calc(100% - 1em);
+    margin: auto;
+    margin-top: .25em;
+    background-color: white;
+
+}
+
+.main-nav li a {
+    padding: .1em;
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav li a:hover {
+    color: orange;
+
+}
+
+#picture {
+    max-width: 1250px;
+    min-width: 180px;
+    width: calc(100% - 50em);
+    height: calc(100% - 50em);
+    border-radius: 50%;
+    padding: .25em;
+}
+
+.profile-pic {
+    margin: auto;
+    background-color: #D3D3D3;
+    width: calc(95% - 7em);
+
+}
+
+.portfolio-title {
+    color: black;
+    font-family: "Lobster", sans-serif;
+
+}
+
+.non-mobile {
+        display: none;
+}
+
+/***************************
+****************************
+Portfolio Section
+****************************
+***************************/
+
+.portfolio {
+    max-width: 1270px;
+    margin: auto;
+}
+
+.portfolio p {
+    padding-bottom: 2.5em;
+    font-family: sans-serif;
+}
+
+.portfolio img {
+    width: calc(100% - 2em);
+    max-width: 1250px;
+    padding-bottom: .25em;
+    margin: auto;
+}
+
+.img {
+    text-align: center;
+}
+/***************************
+****************************
+Contact/Info Section
+****************************
+***************************/
+
+.contact {
+    background-color: #F5F5F5;
+    display: block;
+    padding: .25em;
+}
+
+.contact h2 {
+    margin-top: 0;
+    padding-top: .5em;
+
+}
+.contact p {
+    margin: 0;
+    padding-bottom: .75em;
+    vertical-align: top;
+    text-align: center;
+
+}
+.contact span {
+    font-family: 'Lobster', cursive;
+    color: orange;
+    margin: 0 5em;
+
+}
+
+/***************************
+****************************
+Footer
+****************************
+***************************/
+
+footer {
+    display: inline-block;
+    width: 100%;
+    background-color: #F5F5F5;
+    margin: auto;
+    min-height: calc(100vh - 4246.88px)
+}
+
+
+hr {
+    width: 90%;
+    color: #f5f5f5;
+}
+
+.footer-section div a:hover {
+    color: orange;
+}
+
+.maxwell-kendall {
+    padding-left: 2em;
+    display: inline;
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+.back-to-top {
+    padding-right: 2em;
+    display: inline;
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+
+/***************************
+****************************
+Responsive Website | Tablet
+****************************
+***************************/
+
+@media (min-width: 600px) {
+
+
+    .header-title {
+        margin: auto;
+    }
+
+    header {
+        background-color: #F5F5F5;
+        padding-bottom: 2em;
+    }
+
+    .main-nav {
+        display: block;
+        padding: .5em;
+        background-color: #F5F5F5;
+        width: 100%;
+
+    }
+
+    .main-nav li {
+        display: inline-block;
+        padding: 1em;
+        width: 20%;
+        margin-top: .25em;
+        margin: auto;
+        background-color: #f5f5f5;
+    }
+
+    .main-nav li a {
+        text-decoration: none;
+        color: black;
+        padding: 2em;
+    }
+
+    .main-nav li a:hover {
+        color: orange;
+
+    }
+
+    .container p {
+        text-align: justify;
+        padding-right: 10em;
+
+    }
+
+    #picture {
+        max-width: 1250px;
+        min-width: 180px;
+        width: calc(100% - 50em);
+        height: calc(100% - 50em);
+        border-radius: 50%;
+        padding: .25em;
+    }
+
+    .profile-pic {
+        margin: auto;
+        background-color: #D3D3D3;
+        width: calc(95% - 7em);
+        margin: 2em;
+
+    }
+
+    .profile-pic {
+        float: right;
+        width: calc(50% - 5em);
+    }
+    .portfolio img {
+        display: inline;
+
+    }
+
+.img
+     {
+        display: inline-block;
+        float: left;;
+        width: 45%;
+        padding: 1em .25em 1em 1em;
+        vertical-align: top;
+        max-width: 318px;
+
+    }
+
+
+    .back-to-top {
+        display: none;
+
+    }
+    .non-mobile {
+        display: inline-block;
+        float: right;
+        padding: 0 2em;
+    }
+
+    .non-mobile a {
+        display: inline;
+        float: right;
+        padding: 0 1em;
+    }
+
+/***************************
+****************************
+Responsive Website | Desktop
+****************************
+***************************/
+
+
+@media (min-width: 1040px) {
+
+    .header-title {
+        margin: 0;
+        float: left;
+    }
+
+    .main-nav li {
+        diplay: inline-block;
+        float: right;
+        width: 10em;
+        background: none;
+    }
+
+    .main-nav li a {
+        padding: 4em;
+    }
+
+    .profile-pic {
+        display: inline-block;
+        width: 25%;
+        margin: 2em;
+    }
+
+    .portfolio img {
+        display: inline-block;
+
+    }
+
+img {
+        display: inline-block;
+        width: 33.3%;
+        padding: .25em;
+        vertical-align: top;
+        max-width: 340px;
+    }
+
+.container p {
+    text-align: justify;
+}
+
+.clearfix {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+    .back-to-top {
+        display: none;
+
+    }
+    .non-mobile {
+        display: inline-block;
+        float: right;
+        padding: 0 2em;
+    }
+
+    .non-mobile a {
+        display: inline;
+        float: right;
+        padding: 0 1em;
+    }
