@@ -26,7 +26,6 @@ body {
     margin: auto;;
     text-align: center;
     border: solid 1px red;
-
 }
 
 .container {
@@ -234,6 +233,12 @@ Responsive Website | Tablet
 @media (min-width: 600px) {
 
 
+    /***************************
+    ****************************
+    HEADER
+    ****************************
+    ***************************/
+
     .header-title {
         margin: auto;
     }
@@ -298,22 +303,29 @@ Responsive Website | Tablet
         float: right;
         width: calc(50% - 5em);
     }
-    .portfolio img {
-        display: inline;
 
-    }
+    /***************************
+    ****************************
+    portfolio
+    ****************************
+    ***************************/
 
 .img
      {
         display: inline-block;
-        float: left;;
+        float: left;
         width: 45%;
         padding: 1em .25em 1em 1em;
         vertical-align: top;
         max-width: 318px;
+        margin: auto;
 
     }
-
+    /***************************
+    ****************************
+    Footer
+    ****************************
+    ***************************/
 
     .back-to-top {
         display: none;
@@ -340,6 +352,12 @@ Responsive Website | Desktop
 
 @media (min-width: 1040px) {
 
+    /***************************
+    ****************************
+    HEADER
+    ****************************
+    ***************************/
+
     .header-title {
         margin: 0;
         float: left;
@@ -361,18 +379,27 @@ Responsive Website | Desktop
         width: 25%;
         margin: 2em;
     }
+    /***************************
+    ****************************
+    portfolio
+    ****************************
+    ***************************/
 
-    .portfolio img {
-        display: inline-block;
+.portfolio {
+    text-align: center;
+    margin: auto;
+    max-width: 1055px;
+    padding: 1em 1em;
+    display: inline-block;
+}
 
-    }
 
-img {
-        display: inline-block;
-        width: 33.3%;
+.img {
+        display: inline;
         padding: .25em;
         vertical-align: top;
         max-width: 340px;
+        text-align: center;
     }
 
 .container p {
@@ -384,6 +411,12 @@ img {
     display: table;
     clear: both;
 }
+
+/***************************
+****************************
+footer
+****************************
+***************************/
 
     .back-to-top {
         display: none;
