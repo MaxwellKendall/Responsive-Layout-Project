@@ -25,7 +25,7 @@ MOBILE FIRST/BASE ELEMENTS
 body {
     margin: auto;;
     text-align: center;
-    border: solid 1px red;
+
 }
 
 .container {
@@ -230,7 +230,7 @@ Responsive Website | Tablet
 ****************************
 ***************************/
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
 
 
     /***************************
@@ -310,17 +310,22 @@ Responsive Website | Tablet
     ****************************
     ***************************/
 
+    .portfolio {
+        text-align: center;
+        margin: auto;
+        padding: 1em 1em;
+        display: inline-block;
+    }
+
 .img
      {
         display: inline-block;
         float: left;
-        width: 45%;
         padding: 1em .25em 1em 1em;
         vertical-align: top;
-        max-width: 318px;
         margin: auto;
-
     }
+
     /***************************
     ****************************
     Footer
@@ -342,6 +347,25 @@ Responsive Website | Tablet
         float: right;
         padding: 0 1em;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /***************************
 ****************************
@@ -350,7 +374,7 @@ Responsive Website | Desktop
 ***************************/
 
 
-@media (min-width: 1040px) {
+@media (min-width: 1024px) {
 
     /***************************
     ****************************
@@ -364,7 +388,7 @@ Responsive Website | Desktop
     }
 
     .main-nav li {
-        diplay: inline-block;
+        display: inline-block;
         float: right;
         width: 10em;
         background: none;
@@ -433,3 +457,4 @@ footer
         float: right;
         padding: 0 1em;
     }
+}
