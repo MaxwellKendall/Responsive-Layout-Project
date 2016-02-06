@@ -8,6 +8,7 @@ Universal Elements
     text-align: center;
     font-family: "Lobster",'Open Sans', sans-serif;
     box-sizing: border-box;
+    background-color: #f5f5f5;
 }
 
 /***************************
@@ -95,6 +96,7 @@ header {
     padding: .1em;
     text-decoration: none;
     color: black;
+    background-color: white;
 }
 
 .main-nav li a:hover {
@@ -118,12 +120,6 @@ header {
 
 }
 
-.portfolio-title {
-    color: black;
-    font-family: "Lobster", sans-serif;
-
-}
-
 .non-mobile {
         display: none;
 }
@@ -134,25 +130,42 @@ Portfolio Section
 ****************************
 ***************************/
 
+.portfolio-title {
+    color: black;
+    font-family: "Lobster", sans-serif;
+    background-color: white;
+
+}
 .portfolio {
-    max-width: 1270px;
     margin: auto;
+    background-color: white;
 }
 
 .portfolio p {
     padding-bottom: 2.5em;
     font-family: sans-serif;
+    background-color: white;
 }
 
 .portfolio img {
     width: calc(100% - 2em);
-    max-width: 1250px;
     padding-bottom: .25em;
     margin: auto;
+    background-color: white;
 }
 
 .img {
     text-align: center;
+    background-color: white;
+}
+
+.img h3 {
+    background-color: white;
+}
+
+.left,
+.right {
+    /*display: none;*/
 }
 /***************************
 ****************************
@@ -269,6 +282,7 @@ Responsive Website | Tablet
         text-decoration: none;
         color: black;
         padding: 2em;
+        background-color: inherit;
     }
 
     .main-nav li a:hover {
@@ -312,18 +326,19 @@ Responsive Website | Tablet
 
     .portfolio {
         text-align: center;
-        margin: auto;
-        padding: 1em 1em;
-        display: inline-block;
+        padding: .25em .25em;
+        display: block;
+        background-color: white;
     }
 
 .img
      {
         display: inline-block;
-        float: left;
-        padding: 1em .25em 1em 1em;
+        margin: auto;
+        padding: .25em;
         vertical-align: top;
         margin: auto;
+        width: 40%;
     }
 
     /***************************
@@ -348,24 +363,6 @@ Responsive Website | Tablet
         padding: 0 1em;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /***************************
 ****************************
@@ -396,6 +393,7 @@ Responsive Website | Desktop
 
     .main-nav li a {
         padding: 4em;
+        background-color: #f5f5f5;
     }
 
     .profile-pic {
@@ -411,18 +409,18 @@ Responsive Website | Desktop
 
 .portfolio {
     text-align: center;
-    margin: auto;
-    max-width: 1055px;
+    vertical-align: top;
     padding: 1em 1em;
+    width: calc(100% - 2em);
     display: inline-block;
 }
 
 
 .img {
-        display: inline;
+        display: inline-block;
         padding: .25em;
+        width: 33%;
         vertical-align: top;
-        max-width: 340px;
         text-align: center;
     }
 
